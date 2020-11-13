@@ -1,4 +1,4 @@
-#session 1  summary
+# session 1  summary
 - git has total six stages
 1 working directory
 2 staging
