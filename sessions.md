@@ -13,7 +13,7 @@
  ```syntax 
  -git commit -m	"message or intial message"
  ``` 
- -git push - update remote refs along with associated objects
+ - git push - update remote refs along with associated objects
   ```syntax 
  git push -u origin main
  
