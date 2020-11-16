@@ -12,8 +12,8 @@
 -git commit - Record changes to tha repository
  ```syntax 
  -git commit -m	"message or intial message"
- 
+ ``` 
  -git push - update remote refs along with associated objects
- ```syntax 
+  ```syntax 
  git push -u origin main
  
