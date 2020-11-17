@@ -1,4 +1,7 @@
 # session 1  summary
+-git - is a vcs (version control system)
+version controle system - is a system that records changes to a file or 
+set of files over time so that you can recall specific version later.
 - git has total six stages
 1 working directory
 2 staging
@@ -16,4 +19,48 @@
  - git push - update remote refs along with associated objects
   ```syntax 
  git push -u origin main
+ ```
+-readme clone - Clone a repository into a new directory.
+```syntax
+git clone url
+```
+-git branch-list,create or delete branches
+``` syntax
+git branch-M main
+```
+-git pull- fetch from snd integrates with another repository or local branch.
+```syntax
+git pull
+```
+-#h1, h2,h3,h4 ... are used for header formatting
+ -README.md- It cantains information about other files in a directory or archive of computer software.
+
+ -md stands for markdown
+ 
+ 
+ #JAVASCRIPT
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
