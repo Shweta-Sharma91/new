@@ -248,6 +248,9 @@ else
 block 3 when both condition 1 and 2nd is false
 }
 ``` 
+## Day 4
+# practice of array with conditionals statement
+
  
  
  
