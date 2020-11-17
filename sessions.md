@@ -208,12 +208,46 @@ The push() method is used for add an element in array list.
 syntax
 array.push()
 ```
-
-
-
-
- 
- 
+## conditionals statement
+- The if Statement
+The if statement to specify a block of code to be execute if a condition is true.
+```
+syntax
+if(condition)
+{
+ block of code
+}
+```
+- The else Statement
+the else statement to specify a block of code to be execute if the condition is false.
+```
+Syntax
+if(condition)
+{
+block true
+}
+else
+{
+block false
+}
+```
+- The else if statement
+The esle if statement is used when it specify a new condition if the first condition is false.  
+```
+syntax
+if(condition1)
+{
+block one true
+}
+else if(condition2)
+{
+block 2nd if condition one is false and condition 2 is true
+}
+else
+{
+block 3 when both condition 1 and 2nd is false
+}
+``` 
  
  
  
