@@ -8,7 +8,7 @@ set of files over time so that you can recall specific version later.
 3 repository
 4 remote
 # day 2 
-- git cammands
+-git cammands
 -git init - create an empty git repository
 - git add . - add file content to the index
 -git status - show the working tree status
@@ -35,27 +35,27 @@ git pull
 -#h1, h2,h3,h4 ... are used for header formatting
  -README.md- It cantains information about other files in a directory or archive of computer software.
 
- -md stands for markdown
+-md stands for markdown
  
-## day 2 
- # -node.js
+## day 3
+# node.js
  Node.js is an open-source ,back-end javascript run time envirment that execute
  javascript code outside a web browsers.it used compiler .
  it is a package manager  i.e help to download all software.
- -node.js files have extension".js".
- # -how to run a program on node.js .
- -first install node.js
- -create a node.js file & add some code in it.
+-node.js files have extension".js".
+# how to run a program on node.js .
+-first install node.js
+-create a node.js file & add some code in it.
  save the file in the computer :c\user\your name\file name.js
- -After saving the code on your computer . open the command prompt,
+-After saving the code on your computer . open the command prompt,
  because node.js used command prompt for run the code.
  here write write node filename and press enter.
- # JAVASCRIPT
- -What is javascript
+# JAVASCRIPT
+-What is javascript
  JAVASCRIPT is a programming lang. which is designed to interact with elements of web pages .
- --javascript can run both on web browsers and servers.
-- node.js is server side enviroment for javascript.
- -Datatypes in javascript.
+--javascript can run both on web browsers and servers.
+-node.js is server side enviroment for javascript.
+-Datatypes in javascript.
  there are 6 main data type in javascript i.e.
 -var. 
 -let
@@ -63,11 +63,11 @@ git pull
 -local
 -global
 -count 
- #Define variable
+#Define variable
  variable it gives the liability to chnage the value in the code. .
  constant but in constant once you declare the value you can't change the value in the code .
- #operators 
- - assignment operators - assign the value to a variable
+#operators 
+- assignment operators - assign the value to a variable
  ```
  syntax
  =
@@ -134,50 +134,80 @@ syntax
 -Array are used to store multiple values in a single varriable.
 or Array is the collection of multiple numbers or elements.
 -It can hold the more than one value at a time.
-```syntax
-var array_name=[a,b,c...nth];```
-```Example
+```
+syntax
+var array_name=[a,b,c...nth];
+```
+```
+Example
 var name =["shweta","anu","priya"]
-console.log(name)```
+console.log(name)
+```
 This example show the result 
-``` shweta ,anu,priya```
+```
+ shweta ,anu,priya
+ ```
 -Accessing the Element of an Array
 you can also access the element of array by refering the index number.
-```Example
+```
+Example
 var animals = ['cat','dog','cow']
-console.log(animals[2])```
+console.log(animals[2])
+```
 the result is 
-```cow```
-```Note 
-index of array start from 0,1,2...nth```
+```
+cow
+```
+```
+Note 
+index of array start from 0,1,2...nth
+```
 accessing the first Array elemnt
-```Example
+```
+Example
 var animals = ['cat','dog','cow']
-console.log(animals[0])```
-the result is 
-```cat```
+console.log(animals[0])
+```
+The result is 
+```
+cat
+```
 Accessing the last Array elemnt
-```Example
+```
+Example
 var animals = ['cat','dog','cow']
-console.log(animals.[animals-1])```
+console.log(animals.[animals-1])
+```
 the result is 
-```cow```
+```
+cow
+```
 -Length of array
 you can also find the length of array by using command which is given below
-``` console.log(array.length)```
-```Example
+```
+ console.log(array.length)
+ ```
+```
+Example
 var animals = ['cat','dog','cow']
-console.log(animals.length)```
+console.log(animals.length)
+```
 result is 
-```3```
+```
+3
+```
 -Array slicing
 the slice() method returs the selected elements in an array,as a new array object.
-```syntax
-array.slice(start,end)```
+```
+syntax
+array.slice(start,end)
+```
 -Adding a array
 The push() method is used for add an element in array list.
-```syntax
-array.push()```
+```	
+syntax
+array.push()
+```
 
 
 
