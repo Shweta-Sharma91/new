@@ -68,36 +68,56 @@ git pull
  constant but in constant once you declare the value you can't change the value in the code .
  #operators 
  - assignment operators - assign the value to a variable
- ```syntax
- = ```
- ```Example
-var x=5; // assig the value 5 to x```
+ ```
+ syntax
+ =
+ ```
+ ```
+ Example
+var x=5; // assig the value 5 to x
+```
 -Adding - used to add numbers
-```syntax
-+```
-```Example
+```
+syntax
++
+```
+```
+Example
 var x=10;
 var y=20;
-var z=x+y;```
+var z=x+y;
+```
 -Multiplication - used to multiplies numbers.
-```syntax
-*```
-```Example
+```
+syntax
+*
+```
+```
+Example
 var x =10;
 var y =20;
-var z= x*y;```
+var z= x*y;
+```
 -Division - used for divied the numbers.
-```syntax 
-/```
+```
+syntax 
+/
+```
 -Modulus - used for dvision remainder.
-```syntax
-%```
+```
+syntax
+%
+```
 -increment - used for increase number by 1
-```syntax
-++```
+```
+syntax
+++
+```
 -Decrement - used for decrease number by 1
-``` syntax	
---```
+```
+ syntax	
+--
+```
 #-comparison operators
 -== used for equal to 
 -=== equal value and equal type.
