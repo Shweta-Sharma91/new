@@ -70,8 +70,7 @@ git pull
  - assignment operators - assign the value to a variable
  ```syntax
  = ```
- ```
-Example
+ ```Example
 var x=5; // assig the value 5 to x```
 -Adding - used to add numbers
 ```syntax
