@@ -7,3 +7,4 @@ if(array_1>10){
 console.log(array_2)
 }
 
+console.log(array[])
