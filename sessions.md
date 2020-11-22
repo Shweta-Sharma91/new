@@ -417,13 +417,52 @@ var fruit_finder = (Array_of_fruit , fruit_name) =>{
 	}
 }	
 console.log(fruit_finder(["apple","mango","kiwi","orange","banana"] ,"mango"))
- 
- 
- 
- 
- 
- 
- 
+```
+ # Day 10 Objects
+ a object is the collection of property which is associate with a particular name .
+ ```
+ syntax
+ var object={
+ keys:value
+ }
+ ```
+ ```example
+ var samsung={
+	model_number: "SM-A507FN/DS",
+	serial_number: "RZ8M90ME9BP",
+	number_of_apps: 97,
+	phone_color: "white",
+	name: "Galaxy A50s",
+	whatsapp: "yes",
+	instagram: "no"
+};
+console.log(samsung)
+console.table(samsung)
+console.log(samsung.name)
+samsung.name="Galaxy J7"
+console.log(samsung.name)
+```
+#Methos and objection in JAVASCRIPT
+JavaScript methods are actions that can be performed on objects.
+ A JavaScript method is a property containing a function definition.
+ Methods are functions stored as object properties.
+ ```
+ Example
+ var laptop={
+	name:"apple",
+	color:"red",
+	ram:"8Gb",
+	get_laptop_info: function(){
+	return `${this.name} is the name of laptop \n ${this.color} is the color of laptop \n${this.ram} is the ram of laptop`
+	}
+}
+console.log(laptop.get_laptop_info())
+```
+```
+Extra notes
+API:- it stands for Application programming interface .
+which means it work as intermediate b/w two applications.
+```
  
  
  
