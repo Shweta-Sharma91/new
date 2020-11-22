@@ -539,7 +539,7 @@ for(var n of laptop){
 Syntax
  - setTimeOut(function,miliseconds)
  ```
- this method calls a function and execute an expression after a specified number of milisexonds 
+ this method calls a function and execute an expression after a specified number of miliseconds 
  - This function is only execute once.if you want to repeat it then you have to use setinterval() method.
  ```
  syntax
