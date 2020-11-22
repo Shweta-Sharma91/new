@@ -343,9 +343,16 @@ console.log(i)
 }
 ```
 # While loop
-
- 
- # Functions
+THe while loop evaluates the expression before each iteration of the loop. If the expression is true then
+the while loop execute the statement else it evaluates to false, execution continues with statement after the while loop.
+```
+syntax
+while(condition{
+executed code
+++
+}break/continue statement
+```
+  # Functions
  function is a block of code designed to perform a particular task.These fuction are executeed when we call it .
 - function keyword is used for declaring functions
 - we can also pass parameter in function
@@ -442,7 +449,7 @@ console.log(samsung.name)
 samsung.name="Galaxy J7"
 console.log(samsung.name)
 ```
-#Methos and objection in JAVASCRIPT
+# Methos and objection in JAVASCRIPT
 JavaScript methods are actions that can be performed on objects.
  A JavaScript method is a property containing a function definition.
  Methods are functions stored as object properties.
@@ -461,10 +468,86 @@ console.log(laptop.get_laptop_info())
 ```
 Extra notes
 API:- it stands for Application programming interface .
-which means it work as intermediate b/w two applications.
+which means it work as bridge b/w client and server.
 ```
- 
- 
+# for each loop
+foreach is a method on the array
+```
+	Example
+	
+var number_array=[1,2,3,4]
+number_array.forEach((num) => (console.log(num+1)))
+```
+
+# for in & for of loop
+ -for in is used to through the property of an object.
+```
+syntax
+for(var in object){
+code block
+}
+```
+ ```
+ Example
+ var laptop={ 
+name:"dell",
+color:"white",
+ram:"8Gb"
+};
+for(var n in laptop){
+	console.log(laptop[n])
+}
+```
+- for of is used to through the values of an iterable object.
+```
+syntax
+for(var in object){
+code block
+}
+```
+```
+Example
+var laptop=[ 
+"dell",
+"lenovo",
+"apple"
+};
+for(var n of laptop){
+	console.log(laptop[n])
+}
+```
+ # Difference b/w for in & for of loop
+ - for in statement used for object .
+ - for of is used for both array and object.
+ # Use of "This"
+ this is a keyword refer to the object it belongs to .
+ - in function it refers to global object. 
+ - in an event this refer to the element that recevied the event.method .
+ # DOM
+ - DOM stands for document object model_number.
+ it  shows the actual structure of document .
+  # class
+  classes are used to encapsulate the the data
+  # id
+  the id is a unique number or id for an element .
+ # <div></div> tag
+ - The <div> tag is used to create the section in html document.
+ # A counter project in javascript
+ in this project we know about the two methods.
+ here we are using time method
+```
+Syntax
+ - setTimeOut(function,miliseconds)
+ ```
+ this method calls a function and execute an expression after a specified number of milisexonds 
+ - This function is only execute once.if you want to repeat it then you have to use setinterval() method.
+ ```
+ syntax
+ - setInterval(function,value)
+ ```
+ # Events
+ An event is defined as an action happen. it can be a user action i.e clicking the mouse , move curser etc. 
+ There is alot of events are performed and reserved in Event interface.
  
  
  
