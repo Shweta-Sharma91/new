@@ -551,8 +551,53 @@ Syntax
  
  abcd
  
+ ## MERN
+ M - Mongosb 
+ E - Epress
+ R - Reactjs
+ N - Nodejs
  
- 
+ # section 1
+ - installing mongodb
+ Mongo is used in backend , it is a database , node is also a database and used in backend.
+ -Frontend
+ react is used in frontend
+ # What is backend and frontend 
+ piece of code which are wriiten are called backend , when we run these code that output comes on our brower i.e is  frontend.
+
+ # section 2
+ Express Server and Database modling
+ -Express :- 
+ Creat a Server :- use to pulling entire backend to website.
+ - npm :- node package manager
+ command :-
+ npm init : intializing of node package
+ pakage name:
+ version: vesrion name of software
+ description:
+ entry point:starting point
+ text cmd:
+ licence
+ git
+ author
+
+ =>npm i express :- this cmd is used for installing express
+const express = require("express")
+const var name = express();
+const port = 8000; // port is basically a route which we follow to fatch our webpage
+app.get("/",()=>{}) // {} these braces are used when we want somthing in return.
+() here it is not complsory.
+app.get("/path-name",(req, res)=>{
+	return res.send("text") 
+})
+app.listen(port,()=>{ 
+	console.log("text")
+})
+ -two methods are use first is .get , 2nd is .post.
+ .get
+ .post
+ ip , 
+ localhost.
  
  
  
