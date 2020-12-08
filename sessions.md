@@ -584,7 +584,7 @@ Syntax
  =>npm i express :- this cmd is used for installing express
 const express = require("express")
 const var name = express();
-const port = 8000; // port is basically a route which we follow to fatch our webpage
+const port = 8000; // port is basically defines a number where ur application is running
 app.get("/",()=>{}) // {} these braces are used when we want somthing in return.
 () here it is not complsory.
 app.get("/path-name",(req, res)=>{
