@@ -599,18 +599,25 @@ app.listen(port,()=>{
  ip , 
  localhost.
  
-##session 3
-#what is meta data:-
+## session 3
+# what is meta data:-
 -it is simply data about data or in other way information about data is called meta data.
-#schema :- it is a object..
-#hash value:A hash function is any function that can be used to map data of arbitrary size to fixed-size values. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes. The values are used to index a fixed-size table called a hash table.
-#models : it is just show how your website looklike, how your product should looklike . for e.g you have a website and has a user how user looklike ,it should has name ,email,etc.information about ur site.
-#routes:-in the Routes you determine what should happen when a user visits a certain page.
-#controlers:-The Controller receives user requests, and translates them into actions that the Model should take. Then it selects the appropriate View to handle the response.
-#Mongoose:- it is a object modeling for node.js
+# schema :- 
+it is a object..
+# hash value:
+A hash function is any function that can be used to map data of arbitrary size to fixed-size values. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes. The values are used to index a fixed-size table called a hash table.
+# models : 
+it is just show how your website looklike, how your product should looklike . for e.g you have a website and has a user how user looklike ,it should has name ,email,etc.information about ur site.
+# routes:-
+in the Routes you determine what should happen when a user visits a certain page.
+# controlers:-
+The Controller receives user requests, and translates them into actions that the Model should take. Then it selects the appropriate View to handle the response.
+# Mongoose:- 
+it is a object modeling for node.js
 - It is a driver used for database connectivity with mongodb.
-#salt:-a salt is random data that is used as an additional input to a one-way function that hashes data, a password . Salts are used to safeguard passwords in storage.
-virtual field
+# salt:-
+a salt is random data that is used as an additional input to a one-way function that hashes data, a password . Salts are used to safeguard passwords in storage.
+# virtual field
 
 
  
